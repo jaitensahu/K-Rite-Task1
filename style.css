@@ -21,6 +21,7 @@ body {
 
 }
 
+/*------------------------ Left sideBar Styling---------------- */
 .left {
     display: flex;
     flex-direction: column;
@@ -32,16 +33,6 @@ body {
     border: 1px solid rgba(128, 128, 128, 0.197);
     border-radius: 5px;
     min-width: 220px;
-    transition: 0.3s ease-in-out;
-}
-
-.right {
-    height: 97%;
-    position: fixed;
-    width: 81%;
-    left: 18%;
-    border-radius: 5px;
-    border: 1px solid rgba(128, 128, 128, 0.197);
     transition: 0.3s ease-in-out;
 }
 
@@ -207,10 +198,17 @@ hr {
     font-size: 12px;
 }
 
+/*--------------------------Left SideBar Styling Ends Here-------------*/
 
-/* RIGHT CONTAINER STYLE */
+/*--------------------- RIGHT CONTAINER STYLE ------------------------------------*/
 .right {
-    /* position: relative; */
+    height: 97%;
+    position: fixed;
+    width: 81%;
+    left: 18%;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.197);
+    transition: 0.3s ease-in-out;
 }
 
 .menuIcon {
@@ -319,8 +317,6 @@ tbody {
     width: 100%;
 }
 
-
-
 td,
 th {
     border: 1px solid rgba(128, 128, 128, 0.197);
@@ -379,19 +375,7 @@ td img {
     position: relative;
 }
 
-
-/* All Pop Up Styling */
-
-.createTeamPopUp {
-    display: none;
-    position: fixed;
-    width: 300px;
-    height: 300px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    box-shadow: 0 0 500px 1000px rgba(0, 0, 0, 0.222);
-}
+/* ------Delete, Archive, Selected Button Styling ---------------*/
 
 .selectedAndDelete {
     display: flex;
@@ -430,24 +414,10 @@ td img {
 .fa-gear {
     cursor: pointer;
 }
+/*  ------Delete, Archive, Selected Button Styling Ends Here --------------- */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Media Query */
+/*----------------------- Media Query------------------------------------------- */
 
 @media screen and (max-width:1265px) {
     .left {
@@ -493,3 +463,4 @@ td img {
         color: white;
     }
 }
+/* ------------------------------------------------------------------------------- */

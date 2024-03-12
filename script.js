@@ -229,9 +229,6 @@ brand.addEventListener("click", (e) => {
   }
 });
 
-document.querySelector(".createTeam").addEventListener("click", () => {
-  document.querySelector(".createTeamPopUp").style.display = "block";
-});
 
 /*-----------------Toggle Show Sub - Folder-------------------------*/
 const subFolders = document.querySelectorAll(".subFolders");
